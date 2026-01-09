@@ -1,0 +1,56 @@
+# =========================
+# Dependencies
+# =========================
+node_modules/
+src/theme/**/node_modules/
+
+# =========================
+# Build / Cache
+# =========================
+dist/
+build/
+.cache/
+.parcel-cache/
+.vite/
+.turbo/
+
+# =========================
+# Logs
+# =========================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# Environment files
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# HubSpot
+# =========================
+.hs/
+.hubspot/
+hs-error.log
+
+# =========================
+# TypeScript
+# =========================
+*.tsbuildinfo
+
+# =========================
+# Misc
+# =========================
+coverage/
