@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    "module": "Node16",
-    "moduleResolution": "Node16",
+    "module": "esnext",
+    "moduleResolution": "bundler",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
@@ -11,7 +11,8 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "skipLibCheck": true,
-    "types": ["vite/client", "vitest/globals"]
+    "types": ["vite/client"],
+    "baseUrl": "."
   },
   "include": ["components/**/*"],
   "exclude": ["node_modules"]
